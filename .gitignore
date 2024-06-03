@@ -1,0 +1,46 @@
+# Ignorar directorios de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar directorios y archivos de entorno
+.env
+.env.*
+
+# Ignorar dependencias de Composer
+/vendor
+
+# Ignorar dependencias de Node
+/node_modules
+/npm-debug.log
+/yarn-error.log
+/pnpm-debug.log
+
+# Ignorar archivos de compilación
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+
+# Ignorar archivos de configuración y caché
+/vendor
+/.phpunit.result.cache
+/coverage.xml
+/phpunit.xml
+/phpunit.xml.dist
+
+# Ignorar archivos de IDEs
+.idea
+*.swp
+*.swo
+*.log
+.vscode
+
+# Ignorar archivos de compilación y cache locales
+/.vagrant
+Homestead.yaml
+Homestead.json
